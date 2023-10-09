@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "VexaSearch",
+    "version": "1.0",
+    "description": "Search links made easy",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "notifications",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
